@@ -21,12 +21,12 @@ h1 {
 }
 
 .project {
-    width: 30%;
-    margin: 15px;
-    padding: 20px;
-    background: #722020;  /* deep red */
-    border-radius: 15px;
-    transition: transform 0.3s; /* add smooth hover effect */
+    width: 70%;
+    margin: 50px;
+    padding: 100px 50px;
+    background: #722020;
+    border-radius: 50%;
+    transition: transform 0.3s;
 }
 .project:hover {
     transform: scale(1.05);
@@ -46,10 +46,10 @@ a {
     text-decoration: none;
     color: bisque;
     text-align: center;
-    transition: color 0.3s; /* smooth color transition */
+    transition: color 0.3s;
 }
 a:hover {
-    color: powderblue; /* lighter color on hover */
+    color: powderblue;
 }
 
 /* Text inside project div */
@@ -73,7 +73,7 @@ a:hover {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 2px solid rgb(114, 2, 2); /* purple border */
+    border: 2px solid rgb(114, 2, 2);
 }
 
 .about p {
