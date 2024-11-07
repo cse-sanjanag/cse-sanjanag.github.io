@@ -36,7 +36,7 @@ h1 {
     width: 100%;
     max-width: 300px;
     margin: 10px auto;
-    border: 2px solid rgb(126, 14, 201); /* purple border */
+    border: 2px solid rgb(114, 2, 2);
     display: block;
     border-radius: 10px;
 }
@@ -70,10 +70,10 @@ a:hover {
 }
 
 .about img {
-    width: 150px;
+    width: 200px;
     height: 200px;
-    border-radius: 25%;
-    border: 2px solid rgb(126, 14, 201); /* purple border */
+    border-radius: 50%;
+    border: 2px solid rgb(114, 2, 2); /* purple border */
 }
 
 .about p {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .contact a {
-    color: lightgray;
+    color: powderblue;
     text-decoration: none;
     font-weight: bold;
 }
