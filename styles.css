@@ -1,7 +1,7 @@
 body {
     background-color: midnightblue;
-    font-family: "Arial", sans-serif; /* added a font */
-    color: whitesmoke;
+    font-family: 'Pacifico', cursive; /* added a font */
+    color: powderblue;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,6 @@ h1 {
     font-size: 2.5em;
 }
 
-/* Projects container */
 .projects {
     display: flex; 
     flex-wrap: wrap;  
@@ -21,7 +20,6 @@ h1 {
     padding: 20px;
 }
 
-/* Individual project */
 .project {
     width: 30%;
     margin: 15px;
@@ -85,7 +83,6 @@ a:hover {
     color: lightgray;
 }
 
-/* Contact links styling */
 .contact a {
     color: lightgray;
     text-decoration: none;
