@@ -1,26 +1,65 @@
 body {
-	background: midnightblue;
-	font-family: Arial, Helvetica, sans-serif;
+    background-color: midnightblue;
+    font-family: ;
 }
 h1 {
-	color: white;
-	text-align: center;
+    text-align: center;
+    color:powderblue;
 }
-.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
-.project {
-width: 30%;
-margin: 10px;
-padding: 20px 10px;
-background: white; /* pick a color */
-border-radius: 25%;
 
-.assign {
-	display: flex;
-	padding: 10px;
-	margin: 10px;
-	background: silver;
+.projects {
+    display:flex; 
+    flex-wrap:wrap;  
 }
-.assign img {
-	width: 200px;
-	padding: 10px;
+.project {
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: rgb(114, 2, 2);  /* pick a color */
+    border-radius: 25%;
+}
+.project img{
+    width: 300px;
+    /* height: 300px; */
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    display: block;
+    margin: auto;
+}
+
+a {  /* change the appearance of ALL links */
+    text-decoration: none;
+    text-align: center;
+    color: bisque;
+}
+.project p {  /* change the appearance of paragraph tags inside .project divs */
+    text-align: center;
+    margin: 15px;
+    color: whitesmoke;
+}
+
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.about img {
+    width: 150px;
+    /* height: 200px; */
+    border-radius: 25%;
+    border: 2px solid  rgb(126, 14, 201);
+}
+
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+}
+
+.contact a {
+    color: black;
 }
